@@ -5,10 +5,7 @@ setup(
     version='1.0.0',
     packages=find_packages(),  # Temukan semua paket di dalam direktori ini
     install_requires=[
-        'setuptools',
-        'wheel',
         'numpy==1.19.3',
-        'six',
     ],
     entry_points={
         'console_scripts': [
@@ -19,4 +16,10 @@ setup(
     author_email='email@domain.com',
     description='Deskripsi singkat tentang paket ini',
     url='https://github.com/SherenSafitri/CVkaryaanakbangsa.git',
+    long_description='Deskripsi panjang tentang paket ini.',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
 )
