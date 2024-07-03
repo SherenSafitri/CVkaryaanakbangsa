@@ -8,6 +8,7 @@ setup(
         'setuptools',
         'wheel',
         'numpy==1.19.3',
+        'six',
     ],
     entry_points={
         'console_scripts': [
