@@ -7,10 +7,10 @@ import subprocess
 def create_connection():
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='',
-            database='db_forecasting'
+            host='sql12.freesqldatabase.com',
+            user='sql12721971',
+            password='d3v1VwjkFq',
+            database='sql12721971'
         )
         if connection.is_connected():
             return connection
